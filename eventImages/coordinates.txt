@@ -1,0 +1,70 @@
+;
+; Format: 
+; MissionName,x1,y1,x2,y2,mission type, short description of what to look for
+; x1,y1 = TopLeft Corner
+; x2,y2 = BottomRight Corner
+;
+; Also, use TABS and not spaces. It will break.
+;
+;
+;
+;
+; Add your own ones here
+;
+;Republic10Fondor,	142,107,173,142	,Escort 1		,Bright Blue Tail Left
+;Republic10Fondor,	142,107,173,142	,Escort 1		,Bright Blue Tail Left
+;Republic10Fondor,	142,107,173,142	,Escort 1		,Bright Blue Tail Left
+;Republic10Fondor,	142,107,173,142	,Escort 1		,Bright Blue Tail Left
+;
+;
+;
+;
+; Default values
+;
+;
+; Escort
+Republic10Fondor,	299,97,320,116		,Escort 1		,Big Ship Blue Tail
+Republic28Syvris,	302,178,317,194		,Escort 2		,Green Moon in Middle
+Imperial10Jabiim,	379,246,410,276		,Escort 1		,Big start ship
+Imperial28Taspan,	348,124,366,142		,Escort 2		,Green Moon in Middle
+;
+; Ice Field
+Republic10Javaal,	87,187,149,227		,Ice Field		,Star above the top fighter
+Republic34Kovor,	87,187,149,227		,Ice Field		,Star above the top fighter
+Imperial10Saleucami,	87,187,149,227		,Ice Field		,Star above the top fighter
+Imperial34Mugaar,	87,187,149,227		,Ice Field		,Star above the top fighter
+;
+; Capital Ship
+Republic20Makem,	362,361,377,367		,Capital Ship		,Health bar of target
+Republic44Zosha,	362,361,377,367		,Capital Ship		,Health bar of target
+Imperial20Sarapin,	406,341,416,352		,Capital Ship		,Health bar of target
+Imperial44Clouds,	406,341,416,352		,Capital Ship		,Health bar of target
+;
+;
+; Ace Fighters
+Republic20Archenar,	17,424,46,443		,Ace Fighters		,Ship from Left
+Republic40Drexel,	17,424,46,443		,Ace Fighters		,Ship from Left
+Imperial20NezPeron,	759,435,778,459		,Ace Fighters		,Yellow Tail in Middle
+Imperial40Sullust,	652,400,665,415		,Ace Fighters		,Red Tail in Middle
+;
+;
+; Destroy Station
+Republic10Balosar,	768,101,790,120		,Destroy Station	,Ship from right
+Republic28Llanic,	768,101,790,120		,Destroy Station	,Ship from right
+Imperial10Cartel,	755,107,781,129		,Destroy Station	,Ship from right
+Imperial28Ezran,	755,107,781,129		,Destroy Station	,Ship from right
+;
+; Ace Bombers
+Republic34Pakuuni,	559,71,604,107		,Ace Bombers		,Random Blue Thing
+Republic44Kalee,	559,71,604,107		,Ace Bombers		,Random Blue Thing
+Imperial34Skaross,	559,71,604,107		,Ace Bombers		,Random Blue Thing
+Imperial44Aeten,	559,71,604,107		,Ace Bombers		,Random Blue Thing
+; 
+;
+; Mine Field
+Republic40Hydian,	715,320,725,330		,Mine Field		,Right Edge of Sun
+Republic48Impossible,	715,320,725,330		,Mine Field		,Right Edge of Sun
+Imperial40Polith,	715,320,725,330		,Mine Field		,Right Edge of Sun
+Imperial48Ascendancy,	715,320,725,330		,Mine Field		,Right Edge of Sun
+;
+;

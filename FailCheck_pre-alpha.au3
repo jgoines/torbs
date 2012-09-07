@@ -1,12 +1,10 @@
-﻿#Region ;**** Directives created by AutoIt3Wrapper_GUI ****
+﻿#Region
 #AutoIt3Wrapper_Icon=icons\dead.ico
-#AutoIt3Wrapper_Res_requestedExecutionLevel=asInvoker
-#EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
-FUNC _HexToString($STRHEX)
-If StringLeft($STRHEX, 2) = "0x" Then Return BinaryToString($STRHEX)
-Return BinaryToString("0x" & $STRHEX)
-;### Tidy Error: next line creates a negative tablevel.
-;### Tidy Error: next line creates a negative tablevel for the line after it.
+#AutoIt3Wrapper_res_requestedExecutionLevel=asInvoker
+#EndRegion
+Func _HEXTOSTRING($STRHEX)
+	If StringLeft($STRHEX, 2) = "0x" Then Return BinaryToString($STRHEX)
+	Return BinaryToString("0x" & $STRHEX)
 EndFunc
 Func _STRINGBETWEEN($S_STRING, $S_START, $S_END, $V_CASE = -1)
 	Local $S_CASE = ""
@@ -5423,4 +5421,5 @@ WHILE (1)
 		EndIf
 	EndIf
 WEnd
+
 ; DeTokenise by myAut2Exe >The Open Source AutoIT/AutoHotKey script decompiler< 2.10 build(157)

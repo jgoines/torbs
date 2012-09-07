@@ -1,0 +1,8 @@
+setStartDelay,60
+setMission,CrewBot
+setSync,Event Sync
+setCrewSkill,Crew Skill 3
+setCrewDiplo,Diplo OFF
+setCrewMember,5
+setCrewLevel,(Default)
+setAutoSpin,1

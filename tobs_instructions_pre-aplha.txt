@@ -1,0 +1,170 @@
+UntzBot 5.0x3
+
+Registration/Donation page : http://untz.comuf.com/paypal.php
+
+FREE MODE: Level 12-34 missions available to use
+DONATION : Exactly the same as free mode, but 40,44,48 are also unlocked.
+           Or just donate because you find this really useful and want to support more releases!
+           Its very tiring recording for hours straight, along with making sync images!
+
+REMINDER ABOUT 5.0:
+- Step 1 - Press Q to resize window, then E to stop it quickly
+- Step 2 - CHANGE INTERFACE TO DEFAULT!!!!!!!
+- Step 3 - Continue like usual
+
+Video Guides:
+1. Setting up UntzBot       : http://www.youtube.com/watch?v=x8t7Qb_1Rfk
+2. Making Timer Sync Images : http://www.youtube.com/watch?v=eKqlad43mY8
+3. Making Event Sync Images : http://www.youtube.com/watch?v=JQD7ycCauU4
+4. Working with 5.0         : http://www.youtube.com/watch?v=rtP-iBEQ0vA
+
+In the works:
+- Sleep Sync (sleep for a specific amount of time then activate)
+- Multiple mission selections (options: 0,1,loop)
+- Crew mission sniping (but I bet you all do diplomacy anyway)
+
+Changelog 5.0x3:
+- Fixed Timer sync crashing on mission start
+- Added standalone UntzCrewBot
+
+Changelog 5.0x2:
+- Timer sync will now move to bottom left corner
+- Timer sync will now have a 40 second maximum time
+- Event sync will now have a 40 second maximum time
+- Main Module will now show the 'bails'
+- Increase the 'sleep before looking for loading screen' time from 4 to 9 seconds
+- New recordings for the 'quick level summary' below
+
+Changelog 5.0x:
+- Added new EVENT SYNC IMAGES
+  - Republic all missions complete
+  - Imperial 'quick level summary' missions complete
+  - Pack updates will be available occasionally when I have time, check the thead occasionally
+- Added new TIMER SYNC IMAGES
+  - Should work for all versions
+  - If not, then just make new ones, like usual
+  - NO RECORDINGS INCLUDED. Watch the thread if you want, will upload 'quick route' missions later
+- Debugger fixed, added warning to change to default interface
+- Added login4.bmp to FR/DE (fixed DeathCheck errors)
+- Dropped the crappy webhost
+
+Changelog 5.0:
+- Patch 1.2 released, this version just fixes it up to match the UI a bit
+- No new features, this is just for 1.2
+- IF WORLD MAP CANNOT BE FOUND, CHANGE INTERFACE TO DEFAULT - ESPECIALLY AFTER RESIZING
+- Changed some CrewBot logic to make it 'get stuck' less
+- Changed SOME graphics
+- Moved some coordinates around
+- Due to changes in Fleet Commendations, Missions 34+ may fail due to not having
+    the powerboost/shield/EMP. You will probably need to record your own missions
+    until the default missions are modified to not use shield/EMP
+- Added log.txt, that shows .. well, a log. Yeah.
+- Not fully tested, just a rush release to make it work for 1.2, post problems in forums
+
+Changelog 4.1x:
+- Crewbot Fixes:
+  - Waits for world map before doing crewbot stuff
+  - Will force all members to attempt to do the requested mission
+  - Uses the 5th member correctly
+- Will now not crash upon the login server being down (gives error message)
+- Autospin is now included in settings.txt
+
+Changelog 4.1:
+- Added CrewBot
+- Added Save/Load settings (must be inactive to press)
+- Added DoubleClick for 44+
+- Added 'click accept multiple times just in case'
+- Fixed Imperial48Ascendancy
+
+Quick Level 12-50 Summary:
+01-12 - Do your first and second worlds, pick up Level 1 Upgrades (cannot equip them yet)
+12-20 - Run Escort 1 Mission (Imperial10Jabiim, Republic10Fondor), Level 0 Upgrades Required
+20-27 - Run Capital Ship Mission (Imperial20Sarapin, Republic20Makem), Level 1 Upgrades Required
+      - Do space mission Rep20Archenar/Imp20NezPeron at least once to get Level 2 Beam Charger
+27-28 - Go to your fleet, pick up gear from your auction house and learn skills
+      - Do your class quests until level 28
+      - Pick up Level 3 Upgrades (can equip 4/6 at level 28)
+      - OR! Just keep doing the level 20 missions, OVER AND OVER AGAIN
+28-34 - Run Escort 2 Mission (Imperial28Taspan, Republic28Syvris), Level 3 Upgrades Required
+34-40 - Do space mission Rep34Pakuuni/Imp34Skaross at least once to get Level 4 Beam Charger
+      - Run Ice Field mission (Imperial34Mugaar, Republic34Kovor), Level 3 Upgrades Required
+40-44 - Pick up Level 5 Upgrades (and Level 6 from auction house)
+44-50 - Run Capital Ship Mission (Imperial44Clouds, Republic44Zosha)
+      - Do space mission Rep44Kalee/Imp44Aeten at least once to get Level 6 Beam Generator
+You can do other missions if you want, but that is the routine that I have stuck to.
+
+Features:
+- English/German/French client supported
+- Aero/Classic/Custom client supported
+- Auto re-log in (experimental, probably not very useful either)
+- Two methods of Sync-ing : Event (newer, default) and Timer (older)
+- Added a debugger to help with getting the program to work correctly
+
+- 1234 recording
+- Proper left/right click behaviour recording
+- Auto-fire toggling
+- Missile Rapid-fire recording (hold 'z' to use')
+- Toggle-able auto-spin
+- DOES NOT record WASD
+
+> The Debugger is only to be used if there are problems with STARTING the mission (like finding world map).
+> If you can enter missions successfully, then the debugger will probably not help you.
+> If it is a sync issue, then it is up to you to create your own sync image file
+> A video guide for creating sync image files will be up sometime soon.
+
+How to Use Debugger:
+- Open SWTOR and stand around in your ship
+- Open Debugger.exe
+- Press Z once, and monitor the numbers that jump around on the debugger
+- Continue pressing Z SLOWLY, waiting for the screen to adjust itself
+- After around 5 times, if successful, the debugger should finish and pop up a message
+- Also, the your debugger numbers should match the numbers provided by me on it
+- If this happens, then it was successful
+- If not, then it was not - please email me
+- When you run UntzBot40x.exe, change the theme to CUSTOM
+- MAKE SURE NOT TO RUN UNTZBOT40.EXE - it will wipe your debugger settings
+
+To Use:
+- Run DeathCheck.exe
+- Run UntzBotxx.exe
+- Change your settings etc
+- Login/Enter free mode
+- Select the mission you want to use
+- Select play/record more with 'R'
+- Press 'Q' to start
+- If recording, press 'E' to stop the recording
+- Press 'X' to close the bot
+- Press 'F' to close DeathCheck
+
+Tips to get it working:
+- Resolution (in game) 800x600
+- Windows Aero Theme
+- Game Windowed Mode
+- Reset your computer
+- When trading scripts, make sure timer files are the same or else it is pointless (or just annoying/impossible to sync)
+- Change interface to default AFTER resizing. Change to something else then default if you need to.
+
+InGame tips:
+- Do not do super fast movements - it currently records 13~ moves per second, so SOME things are missed
+- When shooting missiles, hold it down for half a second longer than usual due to the point above
+- Do not press more than one '1234' key at a time - it records only one at a time (shouldn't be an issue)
+
+Event Sync help:
+- If the mission does not detect the correct event after 30 seconds, it will exit and retry.
+- If it does this continuously, go here : http://www.untz.byethost9.com/howto2.php : to create your own event to sync
+
+Timer Sync help:
+- If the mission does not detect the timer, it will simply fail/die, and DeathCheck will attempt to retry.
+- If it does this continuously, go here : http://www.untz.byethost9.com/howto.php : to create your own timer file to sync.
+
+Common Errors:
+- Looking for world map : Make sure the bottom right corner of your screen is not being blocked by anything
+- Looking for galaxy map : Make sure the correct language is selected, and bottom left is not blocked.
+- The mission is not selected due to being slightly off : Make sure the right windows theme is selected
+- Looking for timer : See above
+- Looking for event : See above
+- Bad Syncing : Make a better recording
+- AutoIt Errors : Update AutoIt
+- Anything else : Ask in forum threads
+- Cant Donate via Paypal : Sorry, only paypal is accepted right now. Will try to do something about it in the future.
+- Galaxy Map Misclicks : Change to 100% DPI

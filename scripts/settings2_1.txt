@@ -1,0 +1,8 @@
+setStartDelay,2000
+setMission,Imperial44Aeten
+setSync,Event Sync
+setCrewSkill,Crew Skill 1
+setCrewDiplo,Diplo OFF
+setCrewMember,1
+setCrewLevel,(Default)
+setAutoSpin,1
